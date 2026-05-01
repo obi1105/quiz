@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>フロントエンドクイズ</title>
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="ロゴ">
+            </div>
+        </header>
+        <main>
+            <article>
+                <section id="quiz" class="container">
+                    <h1>フロントエンドクイズ</h1>
+                    <p id="progress"></p>
+                    <h2 id="question">ここに問題文が表示されます</h2>
+                    <div id="choices">
+                       
+                    </div>
+                    <p id="result"></p>
+                    <div id="error"></div>
+                    <button id="checkBtn" type="button">回答する</button>
+                    <button id="nextBtn" type="button">次へ</button>
+                </section>
+            </article>
+        </main>
+        <script src="quiz.js"></script>
+    </body>
+</html>
